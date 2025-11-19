@@ -25,7 +25,7 @@ class CentralEmbedHandler {
             const channel = await this.client.channels.fetch(channelId);
             
             const embed = new EmbedBuilder()
-            .setAuthor({ name: 'QuantumBeat Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
+            .setAuthor({ name: 'QuantumBeat Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/gRcebnsEy2' })
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
@@ -354,4 +354,5 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
